@@ -1,2 +1,7 @@
 language: go
-script: go test -v
+
+install:
+  - go get ./...
+
+script:
+  - go test -v
